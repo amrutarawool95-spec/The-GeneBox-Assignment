@@ -1,0 +1,22 @@
+{
+ "n_sites_evaluated": 48,
+ "n_pass": 23,
+ "filter_counts": {
+  "off_target": 6,
+  "low_depth": 2,
+  "min_alt": 2,
+  "germline": 3,
+  "panel_of_normals": 2,
+  "normal_artifact": 1,
+  "contamination": 1,
+  "orientation_bias": 2,
+  "strand_bias": 1,
+  "mapping_quality": 1,
+  "base_quality": 1,
+  "short_tandem_repeat": 2,
+  "read_position": 1,
+  "PASS": 23
+ },
+ "tmb_per_mb": 19.386,
+ "median_pass_vaf": 0.146341
+}
