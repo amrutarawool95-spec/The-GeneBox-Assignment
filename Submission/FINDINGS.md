@@ -14,4 +14,3 @@
 ## 3. Threshold evaluation
 - **Admits an invalid variant:** filter 9 requires alt_count >= 10. chr3:2800119 T>C has 9 alt reads, all forward (strand_balance 0), sits in an annotated repeat (unit 4, 3 units), and still passes. It is an SNV, so filter 12 (indels only) never applies. Lowering the gate to alt_count >= 5, or using a binomial strand test, would catch it.
 - **Rejects a plausible real somatic variant:** filter 7 on chr17:7577120 C>T. The germline resource gives af 0.47, so expected_contam_alt = 0.045 x 320 x 0.47 = 6.77 and the 9 alt reads fall below 2 x 6.77. But the normal has 0 of 90 alt reads, which excludes a germline het, and a TP53 hotspot at 0.47 AF is implausible; the resource row is likely wrong or mis-keyed (identical 0.47 also on chr17:7577538 G>C). A normal-aware contamination test would rescue it. chr7:5350700 C>G (filter 4) is the second candidate; see section 2.
-- 
