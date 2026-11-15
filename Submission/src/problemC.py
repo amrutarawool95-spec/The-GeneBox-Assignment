@@ -282,6 +282,7 @@ def main(argv):
     }
     with open(out / "problemC_summary.json", "w") as fh:
         json.dump(summary, fh, indent=1)
+        fh.write("\n")
     print(json.dumps(summary))
 
     for msg in sorted(set(WARNINGS)):             # sorted so stderr is deterministic too
@@ -290,3 +291,4 @@ def main(argv):
 
 if __name__ == "__main__":
     main(sys.argv)
+        
