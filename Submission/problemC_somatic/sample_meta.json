@@ -1,0 +1,13 @@
+{
+  "af_of_alleles_not_in_resource": 1e-06,
+  "assay": "hybrid-capture panel, 2x150, no UMIs",
+  "callable_bases": 1186440,
+  "contamination_fraction": 0.045,
+  "contamination_fraction_stderr": 0.004,
+  "normal_sample_name": "TGB-SOM-014-N",
+  "normal_type": "tumour-adjacent tissue, same surgical specimen",
+  "sample_id": "TGB-SOM-014",
+  "sex": "female",
+  "tumor_purity": 0.62,
+  "tumor_sample_name": "TGB-SOM-014-T"
+}
