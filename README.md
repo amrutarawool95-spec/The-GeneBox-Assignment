@@ -53,11 +53,11 @@ python3 -m unittest tests.test_pipeline -v
 
 | Part | Hours |
 |---|---|
-| Part 1: 5 short answers and source checking | 5 |
-| Part 2: Problem C pipeline, outputs, FINDINGS | 1 |
-| Part 3: 10 mathematical problems | 10 |
-| Checking, testing and write-up | 1 |
-| **Total** | 17 |
+| Part 1: 5 short answers and source checking | 1.5 |
+| Part 2: Problem C pipeline, outputs, FINDINGS | 3.5 |
+| Part 3: 10 mathematical problems | 1.5 |
+| Checking, testing and write-up | 0.5 |
+| **Total** | 7 |
 
 ## Omissions and limits (stated honestly)
 
