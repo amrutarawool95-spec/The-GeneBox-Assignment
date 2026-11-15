@@ -1,49 +1,30 @@
-chrom	pos	ref	alt	depth	alt_count	vaf	normal_vaf	af_used	expected_contam_alt	filter	filter_rank
-chr1	1000000	C	T	180	30	0.166667	0.000000	0.00000100	0.000008	off_target	1
-chr1	1400000	G	A	210	38	0.180952	0.000000	0.00008000	0.000756	PASS	14
-chr1	1400001	T	C	195	33	0.169231	0.000000	0.00000100	0.000009	off_target	1
-chr3	2500001	A	G	240	52	0.216667	0.012500	0.00000100	0.000011	PASS	14
-chr7	5000000	C	A	160	25	0.156250	0.000000	0.00000100	0.000007	off_target	1
-chr1	1050120	C	T	42	12	0.285714	0.000000	0.00000100	0.000002	low_depth	2
-chr1	1061877	G	T	220	40	0.181818	0.000000	0.00000100	0.000010	low_depth	2
-chr1	1099004	A	C	220	4	0.018182	0.000000	0.00000100	0.000010	min_alt	3
-chr3	2612233	T	G	300	5	0.016667	0.000000	0.12000000	1.620000	min_alt	3
-chr3	2655410	C	T	260	58	0.223077	0.258824	0.31000000	3.627000	germline	4
-chr7	5120055	G	A	300	75	0.250000	0.326316	0.44000000	5.940000	germline	4
-chr12	8203311	T	C	240	36	0.150000	0.050000	0.00002000	0.000216	normal_artifact	6
-chr12	8255900	A	G	180	22	0.122222	0.033333	0.00000100	0.000008	PASS	14
-chr7	5300122	C	T	200	30	0.150000	0.000000	0.00000100	0.000009	panel_of_normals	5
-chr12	8411980	G	C	170	26	0.152941	0.000000	0.00000100	0.000008	panel_of_normals	5
-chr3	2700450	A	T	210	33	0.157143	0.000000	0.00000100	0.000009	PASS	14
-chr17	7577120	C	T	320	9	0.028125	0.000000	0.47000000	6.768000	contamination	7
-chr17	7577538	G	A	300	11	0.036667	0.000000	0.00000100	0.000013	PASS	14
-chr17	7578406	C	A	280	8	0.028571	0.000000	0.00000100	0.000013	PASS	14
-chr12	8500771	C	A	190	40	0.210526	0.000000	0.00000100	0.000009	orientation_bias	8
-chr7	5410228	G	T	210	36	0.171429	0.000000	0.00000100	0.000009	orientation_bias	8
-chr1	1210885	A	G	200	30	0.150000	0.000000	0.00000100	0.000009	strand_bias	9
-chr3	2800119	T	C	180	9	0.050000	0.000000	0.00000100	0.000008	PASS	14
-chr12	8600033	G	A	220	34	0.154545	0.000000	0.00000100	0.000010	mapping_quality	10
-chr7	5500900	C	G	200	28	0.140000	0.000000	0.00000100	0.000009	base_quality	11
-chr1	1300044	AT	A	210	31	0.147619	0.000000	0.00000100	0.000009	short_tandem_repeat	12
-chr1	1300050	A	G	205	30	0.146341	0.000000	0.00000100	0.000009	PASS	14
-chr12	8650200	C	CGT	190	27	0.142105	0.000000	0.00000100	0.000009	short_tandem_repeat	12
-chr3	2750500	G	T	230	35	0.152174	0.000000	0.00000100	0.000010	read_position	13
-chr7	5050606	C	T	260	48	0.184615	0.000000	0.00000100	0.000012	PASS	14
-chr12	8700000	A	G	240	44	0.183333	0.000000	0.00000100	0.000011	PASS	14
-chr17	7579472	G	C	310	70	0.225806	0.000000	0.00000100	0.000014	PASS	14
-chr3	2520088	C	T	195	26	0.133333	0.000000	0.00000100	0.000009	PASS	14
-chr1	1150777	T	A	175	21	0.120000	0.000000	0.00000100	0.000008	PASS	14
-chr3	2500000	G	A	230	34	0.147826	0.000000	0.00000100	0.000010	off_target	1
-chr12	8000000	C	T	215	29	0.134884	0.000000	0.00000100	0.000010	off_target	1
-chr17	7570000	A	G	290	61	0.210345	0.000000	0.00000100	0.000013	off_target	1
-chr3	2680400	C	T	290	9	0.031034	0.000000	0.00000100	0.000013	PASS	14
-chr12	8333120	G	A	260	6	0.023077	0.000000	0.00000100	0.000012	PASS	14
-chr7	5250900	T	C	210	32	0.152381	0.000000	0.00000100	0.000009	PASS	14
-chr12	8470550	G	A	230	34	0.147826	0.000000	0.00000100	0.000010	PASS	14
-chr3	2900000	C	T	245	41	0.167347	0.000000	0.00000100	0.000011	PASS	14
-chr7	5350700	C	T	240	36	0.150000	0.000000	0.00000100	0.000011	PASS	14
-chr7	5350700	C	G	240	9	0.037500	0.250000	0.33000000	3.564000	germline	4
-chr3	2560300	A	G	275	8	0.029091	0.000000	0.00000100	0.000012	PASS	14
-chr12	8120400	T	C	300	9	0.030000	0.000000	0.00000100	0.000013	PASS	14
-chr1	1260800	G	A	220	33	0.150000	0.000000	0.00000100	0.000010	PASS	14
-chr3	2840900	C	T	205	30	0.146341	0.000000	0.00000100	0.000009	PASS	14
+stage	argument	value_or_source	why_required	consequence_if_omitted
+preprocessing	fastp -i T_R1.fq.gz -I T_R2.fq.gz --detect_adapter_for_pe --cut_tail --cut_tail_mean_quality 20 --length_required 50	adapters trimmed; applied to both tumour and normal FASTQ	Adapter read-through and 3' low-quality tails are removed before alignment	Adapter sequence aligns as soft-clipped or mismatched bases and produces false SNV/indel candidates near fragment ends; tails with Q<20 inflate low-BQ alt reads
+alignment	bwa-mem2 mem -t 8 -R '@RG\tID:T\tSM:TGB-SOM-014-T\tPL:ILLUMINA' ref/hg19.fa	reference ref/hg19.fa; separate read group per sample	Read group SM tag is how the caller tells tumour from normal	Both BAMs carry the same sample name and the caller cannot separate them, so the normal is treated as tumour reads and somatic evidence is lost
+alignment	samtools sort -o T.sorted.bam && samtools index T.sorted.bam	coordinate-sorted, indexed BAM	Region-restricted calling (-L) needs random access	Mutect2 fails with a missing-index / unsorted-input error and no calls are produced
+duplicates	gatk MarkDuplicates -I T.sorted.bam -O T.md.bam -M T.dup_metrics.txt	duplicate flag set (no UMIs in this assay: sample_meta.json)	Hybrid-capture without UMIs yields PCR duplicates of one molecule	Duplicates are counted as independent reads: alt_count and depth are inflated and a single PCR error looks like multi-read support, passing min_alt (>=5 reads)
+recalibration	gatk BaseRecalibrator -I T.md.bam -R ref/hg19.fa --known-sites known/dbsnp.vcf.gz --known-sites known/Mills_indels.vcf.gz -O T.recal.table; gatk ApplyBQSR	recalibrated base qualities	mean_alt_bq (filter 11) is only meaningful with calibrated qualities	Systematic machine-cycle quality bias is not corrected, so BQ<20 filter removes the wrong sites and miscalled low-quality bases reach the callset
+calling	gatk Mutect2 -R ref/hg19.fa -I T.recal.bam -I N.recal.bam -normal TGB-SOM-014-N -L target_intervals.bed	BED from problemC_somatic/target_intervals.bed (0-based half-open)	Restricts calling to the capture territory and names the matched normal	Without -normal the normal is treated as a second tumour and normal alt evidence cannot reject germline; without -L off-target sites (filter 1) are called and TMB denominator is wrong
+calling	--germline-resource gnomad.af-only.vcf.gz	exact (chrom,pos,ref,alt) lookup -> af_used	Supplies population AF used to weigh germline vs somatic	Germline variants with normal coverage gaps are called somatic; at multiallelic loci the AF of a different alt is used (e.g. chr17:7577538 G>A matched to the G>C row)
+calling	--af-of-alleles-not-in-resource 1e-06	1e-06 from sample_meta.json	Prior for alleles absent from the resource	Default (0.001 tumour-only / resource-dependent) is applied: wrong germline prior and wrong expected_contam_alt for 41 of 48 sites
+calling	--panel-of-normals pon.vcf.gz	panel_of_normals.tsv (n_normals_with_alt, n_normals_total=50)	Recurrent technical artifacts seen in unrelated normals	Systematic sequencing/mapping artifacts (e.g. chr7:5300122, chr12:8411980) remain PASS with clean-looking VAF 0.15
+calling	--f1r2-tar-gz T.f1r2.tar.gz	per-orientation counts	Needed to learn the read-orientation artifact model	LearnReadOrientationModel has no input, so C>A / G>T oxidation (OxoG/FFPE) artifacts are not modeled
+calling	--min-base-quality-score 20 --pcr-indel-model CONSERVATIVE	BQ threshold 20; PCR indel model	Matches filter 11 and reduces indel error in repeats	Low-quality bases enter active regions; indel errors in homopolymer runs are over-called as real insertions/deletions
+artifact_model	gatk LearnReadOrientationModel -I T.f1r2.tar.gz -O read-orientation-model.tar.gz	orientation prior model	Strand-asymmetric (C>A/G>T) artifacts are distinguished from real mutations	Orientation-biased candidates such as chr12:8500771 (39 fwd / 1 rev) pass as genuine
+contamination	gatk GetPileupSummaries -I T.recal.bam -V common_biallelic.vcf.gz -L common_biallelic.vcf.gz -O T.pileups.table; same for N	common-SNP pileup, tumour and normal	Estimates cross-sample contamination from allele fractions	contamination_fraction is unknown; expected_contam_alt cannot be computed and filter 7 cannot run
+contamination	gatk CalculateContamination T.pileups.table -matched N.pileups.table -tumor-segmentation segments.table -O contamination.table	contamination_fraction 0.045 (se 0.004)	Gives the fraction and the allele-fraction segmentation	Contaminating-sample alleles appear as low-VAF 'somatic' variants; without -matched, germline het SNPs in the tumour are misread as contamination
+annotation	python src/problemC.py (join on chrom,pos,ref,alt)	tumour/normal pileups; unmatched normal -> depth 0	Composite key keeps alt alleles at the same position separate	Joining on chrom+pos only merges chr7:5350700 C>T with C>G: wrong normal_vaf, one site mis-filtered as germline
+annotation	vaf = alt_count/depth; normal_vaf = normal_alt/normal_depth; strand_balance = min(alt_fwd,alt_rev)/alt_count	per-site formulas	Inputs to filters 3,4,6,8,9	Using ref_count or total reads as denominator shifts vaf off the 0.02 and 0.20 cut points
+annotation	expected_contam_alt = contamination_fraction x tumour depth x af_used	0.045 x depth x af_used	Compares observed alt reads with what contamination alone predicts	Common germline alleles in a contaminant are called as somatic at VAF ~ contamination_fraction x AF
+filtering	FilterMutectCalls -V unfiltered.vcf.gz -R ref/hg19.fa --contamination-table contamination.table --tumor-segmentation segments.table --ob-priors read-orientation-model.tar.gz	applies contamination, segmentation, orientation priors	Final GATK probabilistic filtration step	Raw Mutect2 output is not a callset: all artifact classes (contamination, orientation, strand) remain in the VCF as unfiltered
+filtering	--min-allele-fraction 0.02	vaf >= 0.02 (filter 3)	Removes variants below the validated detection limit	Sites at vaf 0.0167 (chr3:2612233) are reported as calls with no orthogonal support
+filtering	--min-median-mapping-quality 30	mean_alt_mq >= 30 (filter 10)	Removes variants carried by poorly mapped reads	Mapping artifacts from paralogous regions (chr12:8600033 MQ 24) pass
+filtering	--min-median-base-quality 20	mean_alt_bq >= 20 (filter 11)	Removes variants carried by low-quality bases	Sequencing errors (chr7:5500900 BQ 17) are reported as somatic SNVs
+filtering	--min-median-read-position 10	alt_read_pos_median >= 10 (filter 13)	Alt bases only at read ends indicate alignment/trim artifacts	Read-end artifacts (chr3:2750500, median position 6) pass
+filtering	min_depth gate: tumour depth >= 50 and normal depth >= 20	filter 2	Low normal depth cannot exclude germline or artifact	Germline hets with 18 normal reads look normal-negative and are called somatic (chr1:1061877)
+filtering	min_alt gate: tumour alt_count >= 5	filter 3	Minimum read support	Single-digit alt reads with 4 supporting reads (chr1:1099004) are called
+filtering	germline gate: af_used >= 1e-5 and normal_vaf >= 0.20	filters 4 and 6 (normal artifact 0.02 <= nvaf < 0.20, alt >=3)	Separates inherited variants and normal-borne artifacts from somatic	Inherited variants (chr3:2655410, chr7:5120055) are reported as somatic; with an adjacent-tissue normal these gates also remove real somatic variants
+filtering	short tandem repeat gate: indel and in_tandem_repeat=yes and repeat_unit_length<=2 and repeat_n_units>=6	filter 12 using repeat_annotation.tsv (keyed chrom,pos)	Polymerase slippage in short repeats creates indel artifacts	Slippage indels (chr1:1300044 AT>A, chr12:8650200 C>CGT) pass; applying it to SNVs would wrongly remove chr1:1300050
+filtering	strand gate: orientation (C>A,G>T) strand_balance<0.20; strand_bias alt_count>=10 and strand_balance<0.10	filters 8 and 9	One-strand support indicates library or oxidation artifacts	One-strand artifacts (chr1:1210885, chr7:5410228) pass
+callset	bcftools view -f PASS -T target_intervals.bed filtered.vcf.gz -Oz -o somatic.pass.vcf.gz	PASS sites only	Final callset and TMB numerator	Filtered sites are counted in n_pass and tmb_per_mb is inflated
+callset	tmb_per_mb = n_pass / (callable_bases / 1e6)	callable_bases = 1,186,440	TMB must be normalised to the territory that can actually be called	Using the 2.01 Mb BED length instead of 1.186 Mb understates TMB by 41% (11.4 vs 19.4 per Mb)
