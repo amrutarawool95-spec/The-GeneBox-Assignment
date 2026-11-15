@@ -53,8 +53,12 @@ class TestProblemC(unittest.TestCase):
                 self.assertEqual((self.out / name).read_bytes(), (Path(d2) / name).read_bytes())
 
     def test_matches_saved_outputs(self):
-        for name in ("problemC_calls.tsv", "problemC_summary.json"):
-            self.assertEqual((self.out / name).read_bytes(), (SAVED / name).read_bytes())
+        # the calls table must match byte for byte; the JSON is compared by content
+        # (so a trailing newline added by an editor or by GitHub does not matter)
+        self.assertEqual((self.out / "problemC_calls.tsv").read_bytes(),
+                         (SAVED / "problemC_calls.tsv").read_bytes())
+        self.assertEqual(json.loads((self.out / "problemC_summary.json").read_text()),
+                         json.loads((SAVED / "problemC_summary.json").read_text()))
 
     def test_bed_is_zero_based_half_open(self):
         # 1-based pos equal to a BED start is OUTSIDE; start+1 is inside; end is inside; end+1 is outside
@@ -87,3 +91,4 @@ class TestProblemC(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+    
