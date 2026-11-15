@@ -5,7 +5,7 @@
 ## What is in this folder
 
 ```
-submission/
+Submission/
 ├── README.md              this file
 ├── part1.md               Part 1: 5 technical short answers (1.1, 1.2, 1.5, 1.6, 1.7)
 ├── part3.md               Part 3: all 10 mathematical problems with derivations
