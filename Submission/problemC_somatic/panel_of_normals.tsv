@@ -1,0 +1,6 @@
+chrom	pos	ref	alt	n_normals_with_alt	n_normals_total
+chr1	1050120	C	T	3	50
+chr7	5300122	C	T	4	50
+chr12	8411980	G	C	2	50
+chr3	2700450	A	T	1	50
+chr3	2520088	C	T	1	50
